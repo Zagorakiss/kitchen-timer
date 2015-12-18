@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Fredoka One';
-  src: url('/kitchen-timer/fonts/FredokaOne-Regular.eot'); /* IE9 Compat Modes */
-  src: url('/kitchen-timer/fonts/FredokaOne-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/kitchen-timer/fonts/FredokaOne-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/kitchen-timer/fonts/FredokaOne-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/kitchen-timer/fonts/FredokaOne-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/kitchen-timer/fonts/FredokaOne-Regular.svg#Fredoka One') format('svg'); /* Legacy iOS */
+  src: url('/fonts/FredokaOne-Regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/FredokaOne-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/FredokaOne-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/FredokaOne-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/FredokaOne-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/FredokaOne-Regular.svg#Fredoka One') format('svg'); /* Legacy iOS */
    font-weight: normal;
    font-style: normal;
 }
@@ -113,7 +113,7 @@ body {
   position: absolute;
   top: 88px;
   left: 120px;
-  background: url("/kitchen-timer/assets/pomodoro.png") no-repeat;
+  background: url("/assets/pomodoro.png") no-repeat;
   background-size: 80% 80%;
 }
 
@@ -137,10 +137,12 @@ body {
 
 
 
+
 /*GitHub Corner*/
 .github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}
 
-
+/*Logo*/
+.devmuerto-logo-corner{box-sizing:content-box;display:block;position:fixed;top:15px;left:15px;height:73px;width:73px;background-color:#271900;background-image:url(https://raw.githubusercontent.com/Zagorakiss/zagorakiss.github.io/master/assets/devmuerto-logo-codepen.png);opacity:.4;-webkit-transition:opacity .4s ease;transition:opacity .4s ease;border-radius:20px;border:2px dashed orange}.devmuerto-logo-corner:hover{opacity:1;-webkit-animation:rubberBand 1s;animation:rubberBand 1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}@-webkit-keyframes rubberBand{from{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}to{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}@keyframes rubberBand{from{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}to{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}
 
 
 
