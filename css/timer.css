@@ -113,7 +113,7 @@ body {
   position: absolute;
   top: 88px;
   left: 120px;
-  background: url("/assets/pomodoro.png") no-repeat;
+  background: url("/kitchen-timer/assets/pomodoro.png") no-repeat;
   background-size: 80% 80%;
 }
 
